@@ -6,5 +6,9 @@ page:
     heading: test element asd
     imageUrl: /img/about-jumbotron.jpg
     text: 'prova adasdas asd '
+  - date: '2018-03-19T14:33:33+01:00'
+    heading: test pagina
+    imageUrl: /img/about-direct-sourcing.jpg
+    text: asdfadsfdsafdsaf
 ---
 
