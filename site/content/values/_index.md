@@ -1,8 +1,8 @@
 ---
-title: Values tests sasdsad
+title: Values tests sito
 image: /img/about-jumbotron.jpg
 values:
-  - heading: Shade-grown coffee
+  - heading: Shade-grown coffee 2
     imageUrl: /img/about-shade-grown.jpg
     text: >
       Coffee is a small tree or shrub that grows in the forest understory in its
