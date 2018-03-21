@@ -22,5 +22,9 @@ page:
     heading: sadasd
     imageUrl: /img/about-reinvest-profits.jpg
     text: asdasdasdasd
+  - date: '2018-03-21T16:13:18+01:00'
+    heading: asdasdasd
+    imageUrl: /img/about-direct-sourcing.jpg
+    text: asdasdasda
 ---
 
