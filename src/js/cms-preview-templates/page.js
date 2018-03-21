@@ -14,7 +14,6 @@ const MediaBlock = ({heading, text, imageUrl, date, reverse}) => {
     <div className="ph3-m w-50-m">
       <h3 className="f3 b lh-title mb1">{heading}</h3>
       <p>{text}</p>
-      <b>{date}</b>
     </div>
   </div>;
 };
@@ -30,14 +29,14 @@ export default class PagePreview extends React.Component {
       image = window.parent.location.protocol + "//" + window.parent.location.host + image;
     }
     
-    const pageValues = entry.getIn(["data", "page"]);
-    const page = pageValues ? pageValues.toJS() : [];
+    const entryValues = entry.getIn(["data", "values"]);
+    const values = entryValues ? entryValues.toJS() : [];
     
     return <div>
       <Jumbotron image={image} title={entry.getIn(["data", "title"])} />
       <div className="bg-off-white pv4">
         <div className="mw7 center ph3 pt4">
-          {page.map(({text, heading, imageUrl, date}, i) =>
+          {values.map(({text, heading, imageUrl, date}, i) =>
             <MediaBlock key={i} text={text} heading={heading} imageUrl={imageUrl} date={date} reverse={i % 2 === 0} />
           )}
         </div>
