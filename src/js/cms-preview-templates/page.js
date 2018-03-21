@@ -30,7 +30,7 @@ export default class PagePreview extends React.Component {
       image = window.parent.location.protocol + "//" + window.parent.location.host + image;
     }
     
-    const entryValues = entry.getIn(["data", "value"]);
+    const entryValues = entry.getIn(["data", "page"]);
     const values = entryValues ? entryValues.toJS() : [];
     
     return <div>
