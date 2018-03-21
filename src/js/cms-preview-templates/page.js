@@ -14,6 +14,7 @@ const MediaBlock = ({heading, text, imageUrl, date, reverse}) => {
     <div className="ph3-m w-50-m">
       <h3 className="f3 b lh-title mb1">{heading}</h3>
       <p>{text}</p>
+      <b>{date}</b>
     </div>
   </div>;
 };
@@ -29,7 +30,7 @@ export default class PagePreview extends React.Component {
       image = window.parent.location.protocol + "//" + window.parent.location.host + image;
     }
     
-    const pageValues = entry.getIn(["data", "values"]);
+    const pageValues = entry.getIn(["data", "page"]);
     const page = pageValues ? pageValues.toJS() : [];
     
     return <div>
