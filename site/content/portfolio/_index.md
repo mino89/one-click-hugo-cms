@@ -1,5 +1,5 @@
 ---
-title: Values tests sito
+title: Portfolio
 image: /img/about-jumbotron.jpg
 project:
   - heading: Shade-grown coffee 2
@@ -41,3 +41,4 @@ project:
     imageUrl: /img/about-direct-sourcing.jpg
     text: test
 ---
+
