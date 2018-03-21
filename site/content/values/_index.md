@@ -40,5 +40,8 @@ values:
   - heading: test
     imageUrl: /img/about-direct-sourcing.jpg
     text: test
+  - heading: asaddfs
+    imageUrl: /img/favicon-32x32.png
+    text: sdfdsfs
 ---
 
