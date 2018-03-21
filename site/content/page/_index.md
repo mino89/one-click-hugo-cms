@@ -1,5 +1,5 @@
 ---
-title: Test Page
+title: Test Page title
 image: /img/about-jumbotron.jpg
 page:
   - date: '2018-03-19T14:33:33+01:00'
