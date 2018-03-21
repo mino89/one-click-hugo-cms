@@ -3,7 +3,7 @@ import { List } from 'immutable';
 
 import Jumbotron from "./components/jumbotron";
 
-const MediaBlock = ({heading, text, imageUrl, date , reverse}) => {
+const MediaBlock = ({heading, text, imageUrl, date, reverse}) => {
   const imageContainerClassName = reverse
     ? "ph3-m w-50-m"
     : "ph3-m w-50-m order-last-m";
@@ -37,7 +37,7 @@ export default class PagePreview extends React.Component {
       <div className="bg-off-white pv4">
         <div className="mw7 center ph3 pt4">
           {page.map(({text, heading, imageUrl, date}, i) =>
-            <MediaBlock key={i} text={text} heading={heading} imageUrl={imageUrl} reverse={i % 2 === 0} />
+            <MediaBlock key={i} text={text} heading={heading} imageUrl={imageUrl} date={date} reverse={i % 2 === 0} />
           )}
         </div>
       </div>
