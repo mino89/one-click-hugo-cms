@@ -18,5 +18,9 @@ page:
     heading: test heading salvo
     imageUrl: /img/about-shade-grown.jpg
     text: asdfadsfdsfadsf
+  - date: '2018-03-21T16:00:02+01:00'
+    heading: sadasd
+    imageUrl: /img/about-reinvest-profits.jpg
+    text: asdasdasdasd
 ---
 
