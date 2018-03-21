@@ -10,5 +10,9 @@ page:
     heading: test element asd
     imageUrl: /img/about-jumbotron.jpg
     text: 'prova adasdas asd '
+  - date: '2018-03-21T14:50:42+01:00'
+    heading: test heading
+    imageUrl: /img/about-shade-grown.jpg
+    text: asdfadsfdsfadsf
 ---
 
