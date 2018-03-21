@@ -1,7 +1,11 @@
 ---
-title: Test Page
+title: Test Page title
 image: /img/about-jumbotron.jpg
 page:
+  - date: '2018-03-21T14:50:42+01:00'
+    heading: test heading
+    imageUrl: /img/about-shade-grown.jpg
+    text: asdfadsfdsfadsf
   - date: '2018-03-19T14:33:33+01:00'
     heading: test pagina
     imageUrl: /img/about-direct-sourcing.jpg
@@ -10,10 +14,6 @@ page:
     heading: test element asd
     imageUrl: /img/about-jumbotron.jpg
     text: 'prova adasdas asd '
-  - date: '2018-03-21T14:50:42+01:00'
-    heading: test heading
-    imageUrl: /img/about-shade-grown.jpg
-    text: asdfadsfdsfadsf
   - date: '2018-03-21T14:50:42+01:00'
     heading: test heading salvo
     imageUrl: /img/about-shade-grown.jpg
