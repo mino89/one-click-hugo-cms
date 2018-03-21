@@ -83,7 +83,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Image, name: imageUrl, widget: image}
       - file: "site/content/page/_index.md"
         label: "Test Page"
-        name: "test Page"
+        name: "page"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
@@ -95,3 +95,17 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Text, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
               - {label: Date, name: date, widget: datetime}
+      - portfolio: "site/content/portfolio/index.md"
+        label: "Portfolio"
+        name: "portfolio"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
+          - label: Project
+            name: project
+            widget: list
+            fields:
+              - {label: Heading, name: heading, widget: string}
+              - {label: Text, name: text, widget: text}
+              - {label: Image, name: imageUrl, widget: image}
+
