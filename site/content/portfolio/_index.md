@@ -40,7 +40,7 @@ project:
   - heading: test
     imageUrl: /img/about-direct-sourcing.jpg
     text: test
-  - heading: test
+  - heading: test info
     imageUrl: /img/about-single-origin.jpg
     text: asdasdasdasd
 ---
