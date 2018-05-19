@@ -1,6 +1,6 @@
 ---
 title: sdfdsfasdf
 bio:
-  - bioel: asdfsdafdsadsfa
+  - bioel: contenuto italiano
 ---
 
