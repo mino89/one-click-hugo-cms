@@ -1,6 +1,7 @@
 ---
-title: italiano
+language: it
+title: Italiano
 bio:
-  - bioel: contenuto italiano
+  - bioel: Bio italiana
 ---
 
